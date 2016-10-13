@@ -1,5 +1,5 @@
 # solr-movielens-recommender
-Movielens collaborative filtering with Solr streaming expression
+Movielens collaborative filtering with Solr streaming expression. Just help for downloading, ingesting data and dorking around with streaming expressions in streaming cloud mode.
 
 ## Start Solr with movielens schema
 
