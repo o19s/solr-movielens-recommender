@@ -16,12 +16,13 @@ cd solr-home
 
 Download and index movielens. This turns each unique user into a document, with a field `liked_movies` that lists rating 4 and 5 movies.
 
+Depends on pysolr and python 3.x.
+
 ```
 # Dowload movielens 20m data set
 ./prepareData.sh
 
 # Index movies rated 4 and 5 to Solr
-source venv/bin/activate
 python indexToSolr.py
 ```
 
